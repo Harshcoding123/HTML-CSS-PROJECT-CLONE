@@ -1,0 +1,98 @@
+# HTML-CSS-PROJECT-CLONE
+clone website  of sales force
+
+<html >
+<head>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>SalesForce</title>
+</head>
+<body>
+   <div id="main">
+    <div id="header">
+        <div id="image">
+            <img src="https://a.sfdcstatic.com/shared/images/c360-nav/salesforce-with-type-logo.svg">
+        </div>
+        <div class="texts"><P>Products</P></div>
+        <div class="texts"><p>Industries</p></div>
+        <div class="texts"><p>Customers</p></div>
+        <div class="texts"><p>Learnings</p></div>
+        <div class="texts"><p>Suport</p></div>
+        <div style="display: flex;" class="texts"><p>More</p>
+            <i class="ri-arrow-down-s-line"></i>
+           
+        </div>
+        <div id="contact">
+            <p><u>Contact Us</u></p>
+            <p>128-1233-123</p>
+        </div>
+        <div class="icon"><i class="ri-search-line"></i></div>
+        <div class="icon"> <i class="ri-global-line"></i></div>
+        <div style="display: flex;" class="icon" id="log"><i class="ri-user-fill"></i>
+            <p>login</p>
+        </div>
+
+        <div id="try">Try For Free</div>
+
+    </div>
+    <div id="fakeheader"></div>
+    <div id="page1">
+        <div id="strip">
+            <p>JUST ANNOUNCED: See why Gartner® recognised Salesforce as a Leader in Customer Data Platforms.
+            </p>
+            <U>Read the report</U>
+        </div>
+        <div id="content">
+            <div id="c1">
+               <h1>  Try Salesforce <br> Starter Suite for <br>free.</h1>
+               <p>Unite marketing, sales, and service in a single app. Try Salesforce Starter Suite today. There's nothing to install. No credit card required.</p>
+               <div  id="button">
+                <div id="b1">Start Free trial</div>
+                <div id="b2">Watch Demo</div>
+               </div>
+                 </div>
+            <div id="c2">
+                <img id="m1" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT8s8XWJjiQpPjPZBKbZqnzUUATtM8wzL3jp9sY_5GAMJULVMSl">
+                <img id="m2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQxAfIcV9a6XW7Q_iMvUO1rRgmeOVEaH51yBz1GX2w7ff8Q4d1">1
+            </div>
+            
+        </div>
+        <div id="lowerheading"><h1>Learn what Salesforce products can do for you.</h1></div>
+    </div>
+    <div id="page2">
+        
+        <div class="card" id="card1">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDn4JhwoQoZktVERKAEHxLhgNaxYeWF1ws1LzU9gJA5qwVU5h7">
+            <h2 class="h2">  Small Business</h2>
+            <p class="para">Sales, service, and email <br>outreach tools in a single app.</p>
+            <p class="para2" id="p2"><u>learn more</u></p>
+        </div>
+        <div class="card" id="card2">
+            <img class="image" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfwY0Ea-vF8DQCT_G8nFyM7GeAa5Crfv5WqpdwvkJnunf3AcTH">
+            <h2 class="h2">  Sales Cloud</h2>
+            <p class="para">Close more deals and speed<br> up growth with the #1 CRM.</p>
+            <p class="para2" id="p3"><u>learn more</u></p>
+
+        </div>
+        <div class="card" id="card3">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZskA_7gf8d3vEXweVkftnEmhTqr2bDs5xCUs8mBLuHmtoh-9x">
+            <h2 class="h2">Service Cloud</h2>
+            <p class="para">Make customers happy faster<br> and build loyalty with Service<br> Cloud.</p>
+            <p class="para2"><u>learn more</u></p>
+        </div>
+        <div class="card" id="card4">
+            <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSghPXmQldNaIp_q-OBr-S7TTsRu4JDShKT-JGfVns1GJUbWc_7">
+            <h2 class="h2">Marketing Cloud</h2>
+            <p class="para">Build customer relationships <br>for life with data-first digital<br> marketing.</p>
+            <p class="para2"><u>learn more</u></p>
+        </div>
+        <img id="lastimg" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReg3ME7COx2Rr45PJNmwoPDx62ICk8ZkgAGcg-I9CTlxk_wbph">
+       
+    </div>
+   </div>
+    
+</body>
+</html>
